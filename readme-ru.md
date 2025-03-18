@@ -1,4 +1,4 @@
-# Генератор и парсер профилей AnyDesk
+# Генератор и парсер профилей AnyDesk (ID)
 
 ![GitHub top language](https://img.shields.io/badge/language-Python-blue)
 ![GitHub license](https://img.shields.io/badge/license-MIT-green)
@@ -65,7 +65,44 @@
    python main.py
 
    ```
+2. **Главное меню**:
+   После запуска вы увидите главное меню:
+   ![alt text](image.png)
+
+## Примечания об отображении цветов
+
+* Поддержка цветов:
+  * Скрипт использует ANSI-escape коды для цветного вывода.
+  * Для корректного отображения цветов рекомендуется использовать Windows Terminal или любой современный эмулятор терминала, поддерживающий ANSI-цвета.
+  * Если вы используете стандартный Windows Command Prompt (cmd.exe), цвета могут отображаться некорректно из-за ограниченной поддержки ANSI.
+
+## Примеры работы
+
+1. "Beautiful" IDs:
+   ![alt text](image-1.png)
+
+## Структура проекта
 
 ```
-1. **Главное меню**:
+project/
+│
+├── main.py                # Основной скрипт
+├── profiles/              # Папка для хранения профилей
+│   ├── AD1/
+│   │   └── AnyDesk/
+│   │       └── system.conf
+│   ├── AD2/
+│   │   └── AnyDesk/
+│   │       └── system.conf
+│   └── ...
+└── README.md              # Документация
 ```
+
+## Лицензия
+
+Этот проект распространяется под лицензией [MIT License](LICENSE). Вы можете свободно использовать, изменять и распространять этот код.
+
+## Автор
+
+Автор: **urbnywrt**
+GitHub: [urbnywrt](https://github.com/urbnywrt)

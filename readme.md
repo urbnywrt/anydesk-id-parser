@@ -1,10 +1,11 @@
-# AnyDesk Profile Generator and Parser
+# AnyDesk Profile Generator and Parser (ID)
 
 ![GitHub top language](https://img.shields.io/badge/language-Python-blue)
 ![GitHub license](https://img.shields.io/badge/license-MIT-green)
 
 **AnyDesk Profile Generator and Parser** is a tool for automatically generating, analyzing, and managing AnyDesk profiles. The script allows you to create new profiles, find "beautiful" IDs, view configurations, and apply selected profiles in AnyDesk.
 
+> **Note**: A Russian version of this README is available [here](README-ru.md).
 ---
 
 ## Features
