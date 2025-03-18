@@ -5,7 +5,8 @@
 
 **AnyDesk Profile Generator and Parser** is a tool for automatically generating, analyzing, and managing AnyDesk profiles. The script allows you to create new profiles, find "beautiful" IDs, view configurations, and apply selected profiles in AnyDesk.
 
-> **Note**: A Russian version of this README is available [here](README-ru.md).
+> **Note**: A Russian version of this README is available [here](readme-ru.md).
+
 ---
 
 ## Features
@@ -66,6 +67,7 @@
    ```
 2. **Main Menu** :
    After launching, you will see the main menu:
+
    ![alt text](image.png)
 
 ## Notes on Color Display
@@ -75,10 +77,10 @@
   * For correct color display, it is recommended to use Windows Terminal or any modern terminal emulator that supports ANSI colors.
   * If you are using the default Windows Command Prompt (cmd.exe), colors may not display correctly due to limited ANSI support.
 
-
 ## Examples
 
 1. "Beautiful" IDs:
+
    ![alt text](image-1.png)
 
 ## Project Structure
@@ -105,4 +107,5 @@ This project is distributed under the [MIT License](LICENSE). You can freely use
 ## Author
 
 Author: **urbnywrt**
+
 GitHub: [urbnywrt](https://github.com/urbnywrt)
